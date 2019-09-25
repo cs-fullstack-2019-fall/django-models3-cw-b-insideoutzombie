@@ -17,4 +17,4 @@ def allBook(request):
     bookList = Book.objects.all()
     for eachElement in bookList:
         print(eachElement.name)
-    return HttpResponse(eachElement.name)
+    return HttpResponse(eachElement.name) #you need to instead of returning eachElement.name as an HttpResponse you need to save the names to a variable to return as an http response

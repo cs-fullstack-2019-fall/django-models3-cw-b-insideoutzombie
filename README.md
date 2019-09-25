@@ -1,5 +1,5 @@
 # django-models3-cw_b
-
+#### You Successfully made and added your model and added data to your model and your add book route works. Your allBook Route only lists one book. Please refer to comments in views 4/5 Score: 4/5
 ### Exercise 1
 Create a Book model with name, pageNumber, genre, and publishDate attributes. Create 2 entries using 2 different methods (admin site and class construtor using an endpoint).
 
